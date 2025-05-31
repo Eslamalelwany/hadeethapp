@@ -3,28 +3,30 @@
 }
 
 body {
-    background: linear-gradient(to right, #FFF8E1, #FFB74D);
-    min-height: 10vh;
+    background-image: url(images/ChatGPT\ Image\ May\ 31\,\ 2025\,\ 02_31_27\ PM.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
     display: flex; 
     align-items: center;
     justify-content: center;
-
 }
 
 .container {
-    background-image: url(images/ChatGPT\ Image\ May\ 31\,\ 2025\,\ 02_31_27\ PM.png);
     background-size: cover;
     width: 500px;
     height: 400px;
-    background-color: #eee;
     margin: 150px auto;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255,255,255,0.3);
 }
 
 .content {
+    border: 2px solid #FFC107;
     width: 85%;
     height: 200px;
     background-color: #fafafa;
