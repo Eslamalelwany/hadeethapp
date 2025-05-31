@@ -4,7 +4,7 @@
 
 body {
     background: linear-gradient(to right, #FFF8E1, #FFB74D);
-    min-height: 100px;
+    min-height: 100vh;
     display: flex; 
     align-items: center;
     justify-content: center;
