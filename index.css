@@ -4,6 +4,7 @@
 
 body {
     background: linear-gradient(to right, #FFF8E1, #FFB74D);
+    height: 100vw;
 
 }
 
@@ -57,13 +58,12 @@ body {
 
 @media (max-width: 600px) {
     body {
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 260vw;
     }
     .container {
         width: 95%;
         height: auto;
-        margin: 40px auto;
+        margin: 150px auto;
         padding: 10px;
     }
     .content {
